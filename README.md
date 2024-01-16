@@ -15,7 +15,7 @@
     <p>
         <b>Skills</b>
         <ul>
-            <li>Python, C, C++, HTML, CSS</li>
+            <li>Python, C, C++, HTML</li>
             <li>TOEIC 805</li>
         </ul>
     </p>
