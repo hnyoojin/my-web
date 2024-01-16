@@ -8,6 +8,7 @@
     <h1>Hwang Yoojin</h1>
     <img src="꽁지.png" alt="캐릭터.꽁지" width="60">
     <p>
+        This project is all about me.
         2003.FEB.17<br>
         Busan, Republic of Korea
     </p>
