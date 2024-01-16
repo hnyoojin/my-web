@@ -1,37 +1,46 @@
-
-<html lang="ko">
+<!DOCTYPE html>
+<html lang="English">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hwang Yoojin</title>
+    <link rel="stylesheet" href="index.css">
     <style>
+        /*이것은 내부 스타일 시트입니다*/
         table, th, td {
           border:1px solid #ccc;
           border-collapse: collapse;
         }
         th, td { padding:10px 20px; }
-      </style>
+    </style>
 </head>
 <body>
     <h1>Hwang Yoojin</h1>
     <img src="꽁지.png" alt="캐릭터.꽁지" width="60">
+    
+    <!--간단한 정보-->
     <p>
         2003.FEB.17<br>
         Busan, Republic of Korea
     </p>
-    <p>Junior in Computer Engineering</p>
-    <p>
-        <b>Skills</b>
-        <ul>
-            <li>Python, C, C++, HTML, CSS</li>
-            <li>TOEIC 805</li>
-        </ul>
+    <p style="color:tomato;">Junior in Computer Engineering</p>
+    <!--이것은 인라인 스타일입니다-->
+    <!--기술-->
+    <div id="container">
+        <p>
+            <b>Skills</b>
+            <ul>
+                <!--여기서는 accent 클래스 선택자를 사용했구요-->
+                <li>C, HTML, Python, C++ ➡️ <a href="https://github.com/hnyoojin"><span class="accent bg"><b>my github page</b></span></a></li>
+                <li>TOEIC 805</li>
+            </ul>
         
-    </p>
-    <p><b>Language</b></p>
+        </p>
+    </div>
+    <!--사용 가능한 언어-->
+    <p><b>🌐 Language</b></p>
     <table>
         <colgroup>
-            <col style="background-color:#eee;">
+            <col style="background-color:#ff948a;">
         </colgroup>
         <tr>
             <th>Korean</th>
@@ -46,9 +55,73 @@
             <td>Basic</td>
         </tr>
     </table>
+
+    <!--각종 링크?-->
     <p>
-        <a href="https://youtu.be/Ti4BnlWCMTo?si=lZojodxwKq024ozO"><b>Life Goals</b></a><br>
-        <a href="1-tmi.html"><b>tmi about ME</b></a>
+        <!--여기서도 accent만 사용했구-->
+        <br><a class="accent" href="https://youtu.be/Ti4BnlWCMTo?si=lZojodxwKq024ozO"><b>Life Goals</b></a><br>
+        <!--여기서는 accent랑 bg 클래스 선택자를 모두 사용했답니당-->
+        <br><a class="accent bg" href="tmi.html"><b>tmi about ME</b></a>
+        
     </p>
+
+    <form>
+        <input type="button" value="Check this out!!" onclick="window.open('notice.html')"></form>
+    <!--로그인 영역(실험)-->
+    <p><br></p>
+    <blockquote><h2>**이 아래는 아직 기능은 없는 실험 영역입니다!</h2></blockquote>
+    <form action="" autocomplete="off">
+        <fieldset>
+            <b><p>Let me know your info</p></b>
+            <input type="hidden" value="사이트를 통한 직접 로그인">
+            <label>name: <input type="text" id="user-name" placeholder="name" size="6" autofocus></label>
+            <label>nickname: <input type="id" id="user-id" placeholder="nickname" size="6" autofocus></label>
+
+            <b><p>When is your birthday? -type1</p></b>
+            <label>year:<input type="number" min="1970" max="2024"></label>
+            <label>month:<input type="number" min="1" max="12"></label>
+            <label>day:<input type="number" min="1" max="31"></label>
+
+            <b><p>When is your birthday? -type2</p></b>
+            <label>year:<input type="range" min="1970" max="2024"></label>
+            <label>month:<input type="range" min="1" max="12"></label>
+            <label>day:<input type="range" min="1" max="31"></label>
+
+            <b><p>When is your birthday? -type3</p></b>
+            <label>input your birthday: <input type="date" min="1970-01-01" max="2024-01-16"></label>
+            
+            <b><p>When is your birthday? -type4</p></b>
+            <label>input your birthday: <input type="month" min="1970-01-01" max="2024-01-16"></label>
+
+            <b><p>When is your birthday? -type5</p></b>
+            <label>input your birthday: <input type="week" min="1970-01-01" max="2024-01-16"></label>
+
+            <b><p>What time is now? -type1</p></b>
+            <label>input time: <input type="time"></label>
+
+            <!--datetime은 datetime-local과 같답니다~-->
+            <b><p>What time is now? -type2</p></b>
+            <label>input time: <input type="datetime-local"></label>
+
+            <b><p>How did you found this page?</p></b>
+            <label><input type="checkbox" value="c1">instagram</label>
+            <label><input type="checkbox" value="c2">kakaotalk</label>
+            <label><input type="checkbox" value="c3">naver blog</label>
+
+            <b><p>Do you want to be my friend?</p></b>
+            <label><input type="radio" name="gift" value="yes">Yeah!!</label>
+            <label><input type="radio" nema="gift" value="no">Already I am..</label>
+
+            <b><p>If you want to add some file</p></b>
+            <input type="file">
+
+            <div id="buttons">
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+
+            <input type="image" src="login.png" alt="login">
+        </fieldset>
+    </form>
 </body>
 </html>
