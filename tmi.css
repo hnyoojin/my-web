@@ -1,0 +1,33 @@
+* {
+    margin: 5px
+}
+body {
+    background-color: antiquewhite;
+    padding: 5px;
+}
+/*------------------------------------------*/
+h2 {
+    font-size: 40px;
+    color:rgb(103, 46, 235);
+    padding-bottom: 20px;
+}
+#Freetime-list {
+   width: 300px;
+   padding: 5px;
+   padding-left: 0px;
+   margin: 30px;
+   background-color: rgb(243, 191, 124);
+   border: 1px solid black;
+   border-radius: 10px;
+}
+.my-ig {
+    border: 1px solid #130032;
+    padding: 2px;
+    margin: 5px;
+    background-color: rgb(231, 121, 192);
+}
+.my-blog {
+    border: 1px solid #27a720;
+    padding: 2px;
+    background-color: rgb(110, 234, 96);
+}
