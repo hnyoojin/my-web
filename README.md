@@ -16,7 +16,7 @@
     <p>
         <b>Skills</b>
         <ul>
-            <li>Python, C, C++, HTML</li>
+            <li>Python, C, C++, HTML, CSS</li>
             <li>TOEIC 805</li>
         </ul>
     </p>
@@ -38,9 +38,5 @@
             <td>Basic</td>
         </tr>
     </table>
-    <p>
-        <a href="https://youtu.be/Ti4BnlWCMTo?si=lZojodxwKq024ozO"><b>Life Goals</b></a><br>
-        <a href="1-tmi.html"><b>tmi about ME</b></a>
-    </p>
 </body>
 </html>
