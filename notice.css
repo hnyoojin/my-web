@@ -1,1 +1,36 @@
+* {
+    margin:0px;
+    height: 100%;
+}
+/*이미지 위 글자 삽입---------------------------------------------------------*/
+#hello {
+    box-sizing: border-box;
+    margin-top: 0;
+    padding: 0;
 
+    background: url("annoying-orange.png");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: -36% auto;
+    position: relative;
+
+}
+h1 {
+    box-sizing: border-box;
+    margin:10px;
+    font-size: 20px;
+    color:blue;
+    padding: 10px;
+    padding-bottom:10px;
+    
+}
+/*그라데이션 패턴---------------------------------------------------------*/
+.grad2 {
+    /*
+    background: red;
+    background: repeating-linear-gradient(yellow, yellow 20px, red 20px, red 40px);
+    */
+    background: #93b3ff;
+    background: repeating-radial-gradient(circle, white,#93b3ff 7%);
+}
