@@ -8,11 +8,15 @@
     <h1>Hwang Yoojin</h1>
     <img src="꽁지.png" alt="캐릭터.꽁지" width="60">
     <p>
-        This project is all about me.
-        2003.FEB.17<br>
-        Busan, Republic of Korea
+        This project is all about me.<br>
+        ➡️<a href="https://hnyoojin.github.io/my-web/"><b>check this out!</b></a><br><br>
+        <b>About me</b><br>
+        <blockquote>
+            2003.FEB.17<br>
+            Busan, Republic of Korea
+        </blockquote>
     </p>
-    <p>Junior in Computer Engineering</p>
+    <p>I'm Junior in Computer Engineering</p>
     <p>
         <b>Skills</b>
         <ul>
