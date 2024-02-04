@@ -53,6 +53,32 @@ h2 {
     border: 1px solid #000;
     background-color: rgb(245, 251, 155);
 }
+/*yellow button design--------------------------------*/
+.button-yellow {
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 6px;
+
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15%;
+    
+    background-color: #f6ff00;
+    text-decoration: none;
+}
+.button-yellow a:link, .button-yellow a:visited {
+    display: block;
+    font-size: 15px;
+    color: black;
+    text-decoration:none;
+    text-align: center;
+}
+.Button-yellow a:hover, .button-yellow a:focus {
+    color:rgb(255, 98, 0);
+}
+.Banner a:active {
+    color: rgb(255, 0, 0);
+}
+/*--------------------------------------------------*/
 /*이 밑에거...... 왜 크기가 안맞지????????????? 하여간 일단 패스함*/
 #container2 {
     width: 920px;
