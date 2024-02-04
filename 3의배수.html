@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    * {
+        padding : 20px;
+        background-color: rgb(252, 221, 174);
+
+        font-size: 20px;
+        font-weight: 1000;
+    }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    사용자가 정수 N을 입력하면, 
+    N이하의 3의 배수를 모두 출력하는 프로그램
+    -->
+    <script>    
+        var num = parseInt(prompt("Enter random number.",""));
+        var count = 0;
+        
+        document.write(num + "이하 3의 배수<br><br>")
+        if (num !== null) {
+            for (var i = 1; i <= num; i++) {
+                if (i % 3 === 0) {
+                    count++;
+                    document.write(i + " ");
+                }
+            }
+            document.write("<br>" + num + "까지 " + count + "개의 3의 배수 존재");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding : 20px;
+            background-color: rgb(252, 221, 174);
+        
+            font-size: 20px;
+            font-weight: 1000;
+        }
+    </style>
+    <title>4의 배수일까?</title>
+</head>
+<body>
+    <!--
+    프롬프트창을 통해 숫자를 입력받아
+    그 수가 4의 배수인지 알아보는 프로그램
+    -->
+
+    <script>
+        var num = parseInt(prompt("Enter random number.", ""));
+        while (num !== null) {
+            if (num <= 0) {
+                num = parseInt(prompt("Enter positive number.", ""));
+            }
+            else if (num % 4 === 0) {
+                document.write(num + " is 4의 배수.<br>", 
+                "Press 'F5' if you want to Enter another number.");
+                break;
+            }
+            else {
+                document.write(num + " is NOT 4의 배수.<br>", 
+                "Press 'F5' if you want to Enter another number.");
+                break;
+            }
+        }
+    </script>
+</body>
+</html>
